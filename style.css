@@ -15,7 +15,9 @@ body {
 main {
     background: #FFFFFF;
 }
-
+img {
+    max-width: 100%;
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
@@ -30,9 +32,48 @@ footer {
 header {
     margin-top: 40px;
 }
+header img {
+    margin-left: 16px;
+}
 
 .lead {
     font-size: 24px;
-    
-    margin: 30px 0 80px;
+    margin: 30px auto 80px;
+    max-width: 550px;
+}
+main {
+    padding-top: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin: 0;
+}
+.nabidka--header .lead {
+    font-size: 18px;
+    margin: 32px auto 72px;
+    max-width: 400px;
+}
+.gallery {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 20px 80px 0;
+}
+
+.text {
+    text-align: left;
+    font-size: 13.3px;
+    line-height: 1.55;
+}
+
+.nabidka .text {
+    columns: 2;
+    column-gap: 60px;
+    margin-right: 20px;
+}
+
+.text p {
+    margin: 0 0 36px;
 }
