@@ -5,6 +5,15 @@ html {
   font-size: 15px;
 }
 
+body {
+    background-color: #FFEFEF;
+    padding: 0 15%;
+}
+
+main {
+    background: #FFFFFF;
+}
+
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
