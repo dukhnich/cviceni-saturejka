@@ -24,7 +24,7 @@ h2 {
   font-family: 'Playfair Display', serif;
 }
 
-header,
+.main--header,
 main,
 footer {
     padding: 0 80px;
@@ -32,10 +32,10 @@ footer {
 footer {
     padding: 52px 180px;
 }
-header {
+.main--header {
     margin-top: 40px;
 }
-header img {
+.main--header img {
     margin-left: 14px;
 }
 
