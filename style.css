@@ -99,7 +99,7 @@ h1 {
 }
 
 .dish .dish-content {
-    width: 350px;
+    width: calc(0.76*(100% - 410px));
     margin: -2px 30px 0;
 }
 
