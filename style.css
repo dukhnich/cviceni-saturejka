@@ -10,6 +10,7 @@ body {
     text-align: center;
     margin: 0;
     margin-right: -6px;
+    font-size: 0.83rem;
 }
 
 main {
@@ -28,7 +29,9 @@ main,
 footer {
     padding: 0 80px;
 }
-
+footer {
+    padding: 52px 180px;
+}
 header {
     margin-top: 40px;
 }
@@ -44,6 +47,7 @@ header img {
 }
 main {
     padding-top: 80px;
+    padding-bottom: 95px;
 }
 
 h1 {
@@ -65,7 +69,6 @@ h1 {
 
 .text {
     text-align: left;
-    font-size: 0.83rem;
     line-height: 1.55;
 }
 
